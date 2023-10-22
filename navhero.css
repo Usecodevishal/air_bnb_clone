@@ -13,7 +13,6 @@ body{
 
 ::-webkit-scrollbar {
     width: 10px;
-    border:1px solid black;
   }
 
 header{
@@ -28,7 +27,6 @@ nav{
   color:white;
   width:100%;
   height:48px;
-  border:1px solid red;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -64,27 +62,29 @@ nav{
 }
 
 .hero_bgImg{
+  box-sizing: border-box;
   background-image: url("./assets/airbnb_hero_img.jpg");
   object-fit: cover;
   background-size:100% 800px;
   background-repeat: no-repeat;
   width:100%;
   height:640px;
-  margin:auto;
-  border:1px solid red;
+  margin:auto auto 4rem auto;
   background-position: center;
+  display:flex;
+ 
 }
 
 .heroImg-text-box{
-  margin:31rem auto 0rem auto;
- 
+  margin:auto;
   text-align: center;
 }
 
 .bgImg-text{
   font-weight: 500;
   font-size:48px;
-  
+  margin-top:31rem;
   color:white;
+  text-align: center;
 }
 
