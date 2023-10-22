@@ -1,0 +1,189 @@
+main {
+  margin: auto;
+  height: fit-content;
+  width: 95.5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* line-height: 44px; */
+}
+
+.main_p {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.city-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.city-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 302px;
+  height: fit-content;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+  border-radius: 8px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.card-color {
+  background: #cc2d4a;
+  width: 100%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 200px;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.card-text {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.airbnb-exp-box {
+  margin-top: 5rem;
+}
+
+.exp-heading {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.exp-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  height: 628px;
+}
+
+.exp-card {
+  background-size: 60vw 90vh !important;
+  object-fit: cover;
+  width: 628px;
+  height: 628px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 2rem auto auto 2rem;
+  /* -webkit-border-radius: 2%;
+  -moz-border-radius: 15%; */
+  border-radius: px;
+}
+
+.exp-trip {
+  background-image: url("./assets/airbnb-exp-trip.jpg");
+}
+
+.exp-home {
+  background-image: url("./assets/airbnb-exp-home.jpg");
+}
+
+.exp-text {
+  text-align: center;
+  color: white;
+}
+
+.exp-text > h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 55%;
+  margin-left: 2rem;
+  margin-top: 7rem;
+}
+
+.gift-container {
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+.gift-container > div > h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+
+  text-align: left;
+}
+
+.gift-container > img {
+  max-width: 57wv;
+  max-height: 32wh;
+}
+
+.gift-container > div > button {
+  width: 135px;
+  height: 56px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: black;
+  color: white;
+}
+
+.host-bgImg {
+  width: 100%;
+  height: 640px;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin: auto;
+  background-image: url("./assets/airgng_host_img.jpg");
+  background-position: 100% 60%;
+  background-size: 100vw 1200px;
+}
+
+.host-text > h1 {
+  width: 30.5rem;
+  height: fit-content;
+  margin: 10rem auto auto 4rem;
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.host-text > button {
+  width:170px;
+  height:50px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius:8px;
+  margin:5rem auto auto 4rem;
+}
